@@ -10,4 +10,4 @@ Guidance: Đặng Tuấn Tú
 
 Description:
  - A comics/books reading application.
- - Using Java (RMI, JPA, JDBC, ...), MySQL
+ - Using Java (Swing, RMI, JPA, JDBC, ...), MySQL
