@@ -5,9 +5,10 @@
  */
 package com.mycompany.project2_connector.InterfaceRMI;
 
+import com.mycompany.project2_connector.InterfaceRMI.model.Account;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import InterfaceRMI.model.Account;
+
 /**
  *
  * @author Do_Do
