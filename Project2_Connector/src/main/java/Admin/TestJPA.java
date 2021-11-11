@@ -22,5 +22,29 @@ public class TestJPA {
         Query nq = em.createNamedQuery("User.findAll");
         List l = nq.getResultList();
         System.out.println("List size: " + l.size());
+        
+        
+        
+        
+        
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
