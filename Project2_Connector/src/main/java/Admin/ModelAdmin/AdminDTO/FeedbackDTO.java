@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Admin.modelAdmin.AdminDTO;
+package Admin.ModelAdmin.AdminDTO;
 
-import java.sql.Blob;
+
 import java.sql.Date;
-import java.time.Year;
 
 /**
  *
