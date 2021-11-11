@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.project2_connector.Model.dto;
+package Admin.InterfaceAdmin;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
 
 /**
  *
  * @author Do_Do
  */
-public class adminDTO {
-    
+public interface TinhTong extends Remote {
+    int tinhTong(int a, int b) throws RemoteException;
 }

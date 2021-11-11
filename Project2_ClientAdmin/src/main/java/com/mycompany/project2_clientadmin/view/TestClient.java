@@ -5,7 +5,8 @@
  */
 package com.mycompany.project2_clientadmin.view;
 
-import com.mycompany.project2_connector.InterfaceRMI.model.TinhTong;
+
+import Admin.InterfaceAdmin.TinhTong;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
@@ -19,7 +20,6 @@ import java.util.logging.Logger;
  */
 public class TestClient {
     public static void main(String[] args) {
-
         try {
             TinhTong tinhTong = (TinhTong) Naming.lookup("rmi://localhost:7898/tinhtong");
 

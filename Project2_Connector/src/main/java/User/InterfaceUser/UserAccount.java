@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.project2_connector.InterfaceRMI.model;
+package User.InterfaceUser;
 
 import java.io.Serializable;
 import java.sql.Date;
@@ -12,7 +12,7 @@ import java.sql.Date;
  *
  * @author Do_Do
  */
-public class Account implements Serializable {
+public class UserAccount implements Serializable {
     private int UserId;
     private String UserName;
     private String Name;
