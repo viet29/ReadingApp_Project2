@@ -6,7 +6,7 @@
 package com.mycompany.project2_server.Server;
 
 
-import Admin.InterfaceAdmin.TinhTong;
+import com.mycompany.project2_connector.Admin.InterfaceAdmin.TinhTong;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 

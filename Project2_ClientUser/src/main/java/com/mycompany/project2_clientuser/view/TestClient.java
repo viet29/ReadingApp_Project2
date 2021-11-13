@@ -6,7 +6,7 @@
 package com.mycompany.project2_clientuser.view;
 
 
-import Admin.InterfaceAdmin.TinhTong;
+import com.mycompany.project2_connector.Admin.InterfaceAdmin.TinhTong;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;

@@ -8,15 +8,17 @@ package com.mycompany.project2_server.SQL.AdminSQL;
 import java.sql.Date;
 import java.sql.Timestamp;
 import javax.persistence.Entity;
+import org.eclipse.persistence.annotations.PrimaryKey;
 
 /**
  *
  * @author Do_Do
  */
-//@Entity(UserId = "User")
+//@Entity(name = "Admin")
 public class AdminEntity {
-    
+    //@PrimaryKey
     private int UserId;
+    
     private String UserName;
     private String Name;
     private String PhoneNumber;
